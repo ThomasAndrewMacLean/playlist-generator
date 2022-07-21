@@ -20,6 +20,6 @@
     "vite": "^3.0.0"
   },
   "dependencies": {
-    "@thomas-maclean/madewithlove": "^1.0.0"
+    "@thomas-maclean/madewithlove": "^1.0.1"
   }
 }
