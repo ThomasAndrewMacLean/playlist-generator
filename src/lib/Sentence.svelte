@@ -132,8 +132,15 @@
   {#if isReady}
     <a href={playlistUrl} target="_blank"> Open playlist </a>
 
-    <!-- {externalUrl} -->
-    <br /><br /><br />
+    <br /> <br />
+    <button
+      on:click={() => {
+        //reload the page
+        location.reload();
+      }}>Or redo</button
+    >
+    <br />
+    <br />
 
     <iframe
       title="playlist"
