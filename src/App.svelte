@@ -1,4 +1,5 @@
 <script lang="ts">
+  import * as love from "@thomas-maclean/madewithlove";
   import Login from "./lib/Login.svelte";
   import Sentence from "./lib/Sentence.svelte";
   import { getAccesTokenFromHash } from "./utils";
