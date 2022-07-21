@@ -70,7 +70,7 @@
                 )
           )?.uri ||
           d.tracks.items[0]?.uri ||
-          "1VypWHiTxUHNJKYNY6pY9n"
+          "spotify:track:1VypWHiTxUHNJKYNY6pY9n"
       );
 
       console.log(ids);
