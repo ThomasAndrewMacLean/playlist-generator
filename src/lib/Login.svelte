@@ -1,6 +1,6 @@
 <script lang="ts">
   const CLIENT_ID = "ae7bb19fe4ae439f85994652dc206122";
-  const REDIRECT_URL = "http://localhost:5173";
+  const REDIRECT_URL = "https://playlist.thomasmaclean.be";
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
   const RESPONSE_TYPE = "token";
   const SCOPE = "playlist-modify-public";
