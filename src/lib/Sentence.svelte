@@ -73,6 +73,8 @@
           "1VypWHiTxUHNJKYNY6pY9n"
       );
 
+      console.log(ids);
+
       // create playlist;
       const newPlaylist = await fetch(
         `https://api.spotify.com/v1/users/${userId}/playlists`,
