@@ -73,8 +73,6 @@
           "spotify:track:1VypWHiTxUHNJKYNY6pY9n"
       );
 
-      console.log(ids);
-
       // create playlist;
       const newPlaylist = await fetch(
         `https://api.spotify.com/v1/users/${userId}/playlists`,
@@ -92,7 +90,6 @@
         }
       );
       const newPlaylistJSON = await newPlaylist.json();
-      console.log(newPlaylistJSON);
       playlistId = newPlaylistJSON.id;
       const playlistURI = newPlaylistJSON.uri;
       playlistUrl = playlistURI;
