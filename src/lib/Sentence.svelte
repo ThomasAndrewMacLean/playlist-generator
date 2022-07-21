@@ -68,7 +68,9 @@
                   0,
                   Math.min(removeNonAlphabeticalCharacters(words[i]).length, 5)
                 )
-          )?.uri || d.tracks.items[0].uri
+          )?.uri ||
+          d.tracks.items[0]?.uri ||
+          "1VypWHiTxUHNJKYNY6pY9n"
       );
 
       // create playlist;
